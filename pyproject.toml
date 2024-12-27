@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "time-series-prediction-energy"
+version = "0.1.0"
+description = "Home Appliances Energy Prediction"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+numpy = "^2.2.1"
+matplotlib = "^3.10.0"
+seaborn = "^0.13.2"
+scikit-learn = "^1.6.0"
+statsmodels = "^0.14.4"
+jupyter = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
