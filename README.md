@@ -8,6 +8,7 @@ In this project I build a machine learning model to predict energy consumption u
 
 **Dataset Name**: Appliances Energy Prediction Dataset\
 **Source**: UCI Machine Learning Repository\
+**Download Link**: [Appliances Energy Prediction Dataset - UCI](https://archive.ics.uci.edu/dataset/374/appliances+energy+prediction)
 **Description**:
 
 - The dataset contains measurements of energy consumption in a household collected over time.
@@ -51,6 +52,8 @@ poetry export --format=requirements.txt --output=requirements.txt
 ```
 📦 appliances-energy-prediction
 ┣ 📂 data            # Raw and processed data
+┃ ┣ 📂 raw           # Raw data
+┃ ┣ 📂 processed     # Processed data 
 ┣ 📂 notebooks       # Jupyter notebooks for EDA and modeling
 ┣ 📂 src             # Python scripts and modules
 ┃ ┣ 📂 utils         # Helper functions
